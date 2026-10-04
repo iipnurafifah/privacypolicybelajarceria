@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi — Belajar Ceria</title>
+<meta name="description" content="Kebijakan Privasi aplikasi Belajar Ceria: aplikasi edukasi anak yang 100% offline, tidak mengumpulkan data pribadi.">
+<style>
+  :root{
+    --orange:#fb8c00; --cream:#fff8e7; --ink:#2b2b2b; --muted:#6b6b6b; --card:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--cream); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.7; font-size:17px;
+  }
+  header{
+    background:linear-gradient(135deg,#fb8c00,#ffa726); color:#fff; padding:48px 20px 40px; text-align:center;
+  }
+  header h1{margin:0 0 8px; font-size:34px; font-weight:800}
+  header p{margin:0; opacity:.95; font-size:16px}
+  main{max-width:820px; margin:0 auto; padding:32px 20px 64px}
+  section{
+    background:var(--card); border-radius:18px; padding:24px 26px; margin-bottom:18px;
+    box-shadow:0 2px 10px rgba(0,0,0,.06);
+  }
+  h2{margin:0 0 12px; font-size:21px; color:#e65100}
+  h3{margin:18px 0 8px; font-size:17px}
+  ul{margin:8px 0 0; padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%; border-collapse:collapse; margin-top:10px; font-size:16px}
+  th,td{border:1px solid #f0e3c4; padding:10px 12px; text-align:left; vertical-align:top}
+  th{background:#fff3e0}
+  .tag{display:inline-block; background:#e8f5e9; color:#2e7d32; border-radius:999px;
+       padding:4px 14px; font-size:14px; font-weight:700; margin-top:14px}
+  .muted{color:var(--muted); font-size:15px}
+  footer{text-align:center; color:var(--muted); font-size:14px; padding:0 20px 48px}
+  a{color:#e65100}
+  .lang{border-left:4px solid var(--orange); padding-left:14px; margin-top:6px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌈 Kebijakan Privasi</h1>
+  <p>Belajar Ceria — Aplikasi Edukasi Anak TK &nbsp;•&nbsp; Privacy Policy</p>
+</header>
+
+<main>
+
+<section>
+  <h2>Ringkasan singkat</h2>
+  <p><strong>Belajar Ceria adalah aplikasi yang berjalan offline. Aplikasi ini tidak mengumpulkan,
+  tidak menyimpan di server, dan tidak mengirimkan data pribadi apa pun.</strong>
+  Tidak ada akun, tidak ada iklan, tidak ada analytics, tidak ada pelacakan (tracking).
+  Satu-satunya penggunaan internet adalah untuk transaksi langganan melalui Google Play Billing.</p>
+  <span class="tag">✅ Tidak ada data pribadi yang dikumpulkan</span>
+  <p class="muted" style="margin-top:14px">
+    Berlaku untuk versi Android (<code>id.belajarceria.app</code>) per 4 Oktober 2026.
+  </p>
+</section>
+
+<section>
+  <h2>1. Data yang dikumpulkan</h2>
+  <p>Belajar Ceria <strong>tidak mengumpulkan data apa pun</strong> dari penggunanya.
+  Secara khusus, aplikasi ini tidak mengakses atau mengirimkan:</p>
+  <table>
+    <thead>
+      <tr><th>Jenis data</th><th>Dikumpulkan?</th><th>Keterangan</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Nama, email, kontak</td><td>Tidak</td><td>Tidak ada proses pembuatan akun.</td></tr>
+      <tr><td>Lokasi (GPS / alamat)</td><td>Tidak</td><td>Tidak ada izin lokasi yang diminta.</td></tr>
+      <tr><td>Foto, kamera, mikrofon, kontak</td><td>Tidak</td><td>Tidak ada izin terkait yang diminta.</td></tr>
+      <tr><td>Identitas perangkat / Advertising ID</td><td>Tidak</td><td>Tidak ada SDK periklanan atau analytics.</td></tr>
+      <tr><td>Riwayat belajar anak</td><td>Tidak dikirim ke mana pun</td><td>Skor bintang &amp; status premium hanya
+        disimpan lokal di perangkat (SharedPreferences) dan hilang bila aplikasi dihapus.</td></tr>
+      <tr><td>Data ke server pihak kami</td><td>Tidak ada</td><td>Aplikasi tidak memiliki server backend.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>2. Izin &amp; akses perangkat</h2>
+  <p>Izin yang diminta aplikasi (hasil gabungan manifest) hanya:</p>
+  <table>
+    <thead><tr><th>Izin</th><th>Untuk apa</th></tr></thead>
+    <tbody>
+      <tr><td><code>com.android.vending.BILLING</code></td>
+          <td>Berbicara dengan Google Play saat orang tua membeli / memulihkan langganan premium.</td></tr>
+      <tr><td><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code></td>
+          <td>Dipakai <strong>hanya</strong> oleh Google Play Billing untuk mengecek ketersediaan
+              langganan dan memproses pembelian. <strong>Tidak ada data apa pun yang dikirim
+              oleh aplikasi ini</strong> — tidak ada server, tidak ada analytics, tidak ada iklan.</td></tr>
+    </tbody>
+  </table>
+  <ul style="margin-top:14px">
+    <li><strong>Materi belajar, suara, dan kuis berjalan 100% offline</strong> — tidak butuh
+        internet setelah aplikasi terpasang.</li>
+    <li><strong>Tanpa izin sensitif</strong>: tidak ada akses lokasi, kamera, mikrofon, kontak,
+        penyimpanan bersama, atau SMS.</li>
+    <li><strong>Suara (Text-to-Speech)</strong> dihasilkan oleh mesin TTS bawaan perangkat. Teks yang dibacakan
+        hanya diproses oleh layanan TTS lokal sistem dan tidak direkam atau dikirim keluar oleh aplikasi ini.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Iklan &amp; analytics</h2>
+  <ul>
+    <li>Aplikasi ini <strong>tidak menampilkan iklan apa pun</strong>, terutama di area anak.</li>
+    <li>Aplikasi ini <strong>tidak memuat SDK analytics/crash reporting</strong> (tidak ada Firebase, Google Analytics,
+        Meta, maupun alat sejenis).</li>
+    <li>Tidak ada cookie, fingerprinting, atau pengukuran penggunaan.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Pembelian dalam aplikasi (In-App Purchase)</h2>
+  <ul>
+    <li>Langganan premium (product ID <code>belajar_ceria_premium_bulanan</code>)diproses sepenuhnya oleh
+        <strong>Google Play Billing</strong>.</li>
+    <li>Aplikasi hanya menerima status pembelian dari Google Play. <strong>Detail pembayaran
+        (nomor kartu, nama, alamat penagihan) dikelola oleh Google</strong> dan tidak pernah
+        terlihat, disimpan, atau diteruskan oleh aplikasi ini.</li>
+    <li>Status premium disimpan hanya sebagai penanda boolean di penyimpanan lokal perangkat
+        (SharedPreferences), tanpa identifier pengguna.</li>
+    <li>Semua tombol pembelian berada di balik <strong>gerbang orang tua (parent gate)</strong> —
+        anak tidak bisa menjangkaunya.</li>
+    <li>Periode pembayaran, perpanjangan otomatis, dan pengembalian dana mengikuti kebijakan Google Play
+        serta ketentuan langganan yang ditampilkan di halaman pembelian.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Konten untuk anak (Designed for Families)</h2>
+  <p>Belajar Ceria ditujukan untuk anak usia <strong>4–6 tahun</strong> (di bawah 13 tahun) dan
+  mengikuti program <em>Designed for Families</em> Google Play. Karena itu:</p>
+  <ul>
+    <li>Tidak ada pengumpulan data dari anak, apa pun bentuknya.</li>
+    <li>Tidak ada tautan keluar, media sosial, atau promosi di area anak.</li>
+    <li>Pembelian dalam aplikasi hanya dapat diakses melalui gerbang orang tua.</li>
+    <li>Orang tua dapat meninjau isi kebijakan ini kapan saja melalui
+        <em>Menu Orang Tua → 🔒 Privasi &amp; Keamanan</em> di dalam aplikasi.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Keamanan data</h2>
+  <p>Karena aplikasi tidak mengirimkan data ke mana pun, maka tidak ada transmisi data
+  yang perlu diamankan di sisi kami. Data yang bersifat lokal (status premium, skor kuis)
+  hanya berada di sandbox aplikasi di perangkat Anda dan tidak dapat diakses aplikasi lain.</p>
+</section>
+
+<section>
+  <h2>7. Penyedia pihak ketiga</h2>
+  <p>Tidak ada pihak ketiga yang memproses data pengguna melalui aplikasi ini.
+  Satu-satunya layanan eksternal yang dapat dihubungi aplikasi adalah
+  <strong>Google Play</strong> untuk pembelian dalam aplikasi, yang tunduk pada
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi Google</a>.</p>
+</section>
+
+<section>
+  <h2>8. Perubahan kebijakan</h2>
+  <p>Jika di kemudian hari terdapat perubahan (misalnya penambahan fitur yang memerlukan
+  data tertentu), kebijakan ini akan diperbarui di halaman yang sama <strong>sebelum</strong>
+  perubahan tersebut aktif, dan perubahan materiil akan diberitahukan di dalam aplikasi.
+  Tanggal berlaku terbaru selalu tercantum di bagian atas halaman.</p>
+</section>
+
+<section>
+  <h2>9. Hubungi kami</h2>
+  <p>Pertanyaan, saran, atau permintaan terkait privasi dapat disampaikan ke:</p>
+  <ul>
+    <li>Email pengembang: <a href="mailto:privacy@belajarceria.app">privacy@belajarceria.app</a></li>
+    <li>Melalui halaman dukungan aplikasi di Google Play Store (menu <em>Penyedia Aplikasi → Hubungi Pengembang</em>).</li>
+  </ul>
+  <p class="muted">Mohon ganti alamat email di atas dengan alamat kontak yang aktif sebelum halaman ini dipublikasikan.</p>
+</section>
+
+<section>
+  <h2>🔒 Privacy Policy (English summary)</h2>
+  <div class="lang">
+    <p><strong>Belajar Ceria is a 100% offline educational app. It does not collect, store on
+    any server, or transmit any personal data.</strong></p>
+    <ul>
+      <li>No account, no ads, no analytics, no tracking. Learning content, sounds and quizzes
+          work fully offline; the only network use is Google Play Billing for the optional
+          subscription.</li>
+      <li>No access to location, camera, microphone, contacts, or files.</li>
+      <li>Purchases (monthly subscription) are handled entirely by Google Play Billing;
+          the app only receives the purchase status. Payment details are managed by Google
+          and are never seen or stored by the app.</li>
+      <li>Premium status and quiz stars are stored locally on the device only.</li>
+      <li>Designed for Families: the app targets children aged 4–6; no data is collected from children.
+          Purchases are protected by a parental gate (press and hold for 3 seconds).</li>
+      <li>Voice output uses the device's built-in text-to-speech engine.</li>
+      <li>Contact: <a href="mailto:iipnurafifah@gmail.com">iipnurafifah@gmail.com</a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Belajar Ceria • <code>id.belajarceria.app</code> • Dokumen ini berlaku untuk seluruh versi aplikasi
+  yang didistribusikan melalui Google Play Store.</p>
+</footer>
+
+</body>
+</html>
